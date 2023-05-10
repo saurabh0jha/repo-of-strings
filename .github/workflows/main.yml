@@ -1,7 +1,7 @@
 name: file-analyser
 on:
   schedule:
-    - cron: '0/15 * * * *'
+    - cron: '30 13 * * *'
   workflow_dispatch:
 
 jobs:

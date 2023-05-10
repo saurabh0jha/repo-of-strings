@@ -10,4 +10,9 @@ jobs:
     
     steps:
     - uses: actions/checkout@v3
+    - run: | 
+           pwd
+           cd {{$GITHUB_WORKSPACE}}
+           pwd
+           ls -la
     - uses: saurabh0jha/github-actions-poc@master

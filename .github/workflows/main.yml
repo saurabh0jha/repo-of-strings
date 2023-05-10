@@ -1,0 +1,13 @@
+name: file-analyser
+on:
+  schedule:
+    - cron: '0/15 * * * *'
+
+jobs:
+  file-matcher:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    - uses: saurabh0jha/github-actions-poc@master
+      

@@ -16,3 +16,5 @@ jobs:
            pwd
            ls -la
     - uses: saurabh0jha/github-actions-poc@master
+        with: 
+          folderPath: 'levels'

@@ -9,3 +9,25 @@
             <li>Managing the QLE process</li>
             <li>
         <UL>
+
+        label={`Broker ID with ${c.displayName}?`}
+
+
+        <Card.Basic
+              title={`Bank acc  ***${b.a.ans}`}
+              content={
+                <div key={b.id}>
+                    {`Name: ${b.acc.in}`}
+                  </Typography.Text>
+                  <Typography.Text size={14}>
+                    {`acc: ***${b.acc.ans}`}
+                  </Typography.Text>
+                  <Typography.Text size={14}>
+                    {`Routing: ${b.acc.rn}`}
+                  </Typography.Text>
+                  <Typography.Text size={14}>
+                    {`Type: ${b.acc.at}`}
+                  </Typography.Text>
+                </div>
+              }
+            />
